@@ -9,13 +9,13 @@
 if [ -z "$1" ] ; then
     echo ""
     echo "###########################################"
-    echo "restore.sh [list|list backupname|mount backupname targetfolder|umount targetfolder]"
+    echo "borgmount.sh [list|list backupname|mount backupname targetfolder|umount targetfolder]"
     echo ""
     echo "Examples:"
-    echo "restore.sh list"
-    echo "restore.sh list 2018-10-12_02:25"
-    echo "restore.sh mount 2018-10-12_02:25 /var/tmp/bkp"
-    echo "restore.sh umount /var/tmp/bkp"
+    echo "borgmount.sh list"
+    echo "borgmount.sh list 2018-10-12_02:25"
+    echo "borgmount.sh mount 2018-10-12_02:25 /var/tmp/bkp"
+    echo "borgmount.sh umount /var/tmp/bkp"
     echo "###########################################"
     echo ""
     exit
